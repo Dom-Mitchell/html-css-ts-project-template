@@ -19,5 +19,16 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  /* background-color: var(--sand); */
+  background-color: var(--cessna);
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: var(--sand);
+  color: black;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* color: #fff; */
 }
