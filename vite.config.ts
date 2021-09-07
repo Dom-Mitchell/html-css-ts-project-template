@@ -6,7 +6,7 @@ import fs from 'fs'
 // Build a list of all the HTML files in the directory
 const htmlFiles = fs
   .readdirSync('.')
-  .filter((file) => path.extname(file) === '.html'
+  .filter((file) => path.extname(file) === '.html')
 
 // Build a list of input options mapping all the html files here
 const inputOptions = htmlFiles.reduce(
